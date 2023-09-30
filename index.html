@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NewsSneaks</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 200, "opsz" 48;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dffffa55e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary text-center sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold" href="/">NewsSneaks</a>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="sidebar">
+        <a
+          href="index.html#topHeadlinesParent"
+          data-toggle="tooltip"
+          data-placement="right"
+          title="Tooltip on top"
+        >
+          <span class="material-symbols-outlined"> home </span></a
+        >
+        <a href="index.html#weatherParent">
+          <span class="material-symbols-outlined"> sunny </span></a
+        >
+        <a href="index.html#sportsParent">
+          <span class="material-symbols-outlined"> sports_esports </span></a
+        >
+        <a href="index.html#entertainmentParent">
+          <span class="material-symbols-outlined"> live_tv </span></a
+        >
+        <a href="index.html#economyParent">
+          <span class="material-symbols-outlined"> attach_money </span></a
+        >
+      </div>
+      <div class="main container">
+        <div
+          class="category m-4 d-flex flex-column justify-content-center align-items-center"
+          id="topHeadlinesParent"
+        >
+          <div class="display-4 text-center fw-semibold">Top Headlines</div>
+          <div
+            class="row container-fluid justify-content-around my-4"
+            style="margin: 0"
+            id="topHeadlines"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./top_headlines.html"
+            class="btn btn-primary text-center mt-2 mb-3 mx-auto"
+            style="width: 24rem"
+          >
+            View More
+          </a>
+        </div>
+        <div
+          class="category m-4 d-flex flex-column justify-content-center align-items-center"
+          id="weatherParent"
+        >
+          <div class="display-4 text-center fw-semibold">Weather</div>
+          <div
+            class="row container-fluid justify-content-around my-4"
+            style="margin: 0"
+            id="weather"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./weather.html"
+            class="btn btn-primary text-center mt-2 mb-3 mx-auto"
+            style="width: 24rem"
+          >
+            View More
+          </a>
+        </div>
+        <div
+          class="category m-4 d-flex flex-column justify-content-center align-items-center"
+          id="sportsParent"
+        >
+          <div class="display-4 text-center fw-semibold">Sports</div>
+          <div
+            class="row container-fluid justify-content-around my-4"
+            style="margin: 0"
+            id="sports"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./sports.html"
+            class="btn btn-primary text-center mt-2 mb-3 mx-auto"
+            style="width: 24rem"
+          >
+            View More
+          </a>
+        </div>
+        <div
+          class="category m-4 d-flex flex-column justify-content-center align-items-center"
+          id="entertainmentParent"
+        >
+          <div class="display-4 text-center fw-semibold">Entertainment</div>
+          <div
+            class="row container-fluid justify-content-around my-4"
+            style="margin: 0"
+            id="entertainment"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./entertainment.html"
+            class="btn btn-primary text-center mt-2 mb-3 mx-auto"
+            style="width: 24rem"
+          >
+            View More
+          </a>
+        </div>
+        <div
+          class="category m-4 d-flex flex-column justify-content-center align-items-center"
+          id="economyParent"
+        >
+          <div class="display-4 text-center fw-semibold">Economy</div>
+          <div
+            class="row container-fluid justify-content-around my-4"
+            style="margin: 0"
+            id="economy"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./economy.html"
+            class="btn btn-primary text-center mt-2 mb-3 mx-auto"
+            style="width: 24rem"
+          >
+            View More
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="./script.js"></script> -->
+    <script type="module">
+      let articlesPerPage, totalPages;
+      let weatherHome,
+        sportsHome,
+        economyHome,
+        entertainmentHome,
+        topHeadlinesHome;
+      const arr = [];
+      const fetchNews = async (query, pageNo, queryHome, querySection) => {
+        let a = await fetch(
+          `/api?q=${query}&apiKey=c612f0ed5fc542b6b52e376f4f3b9466`
+        );
+        let r = await a.json();
+        console.log(r);
+        totalPages = Math.ceil(r.totalResults / articlesPerPage);
+        queryHome = "";
+        for (let i = 0; i < 3; i++) {
+          let item = r.articles[i];
+          queryHome =
+            queryHome +
+            `
+    <div class="card my-3 p-0" style="width: 18rem">
+              <img src=${
+                item.urlToImage == null
+                  ? "/content/no-img.jpeg"
+                  : item.urlToImage
+              } class="card-img-top" alt="..." />
+              <div class="card-body d-flex flex-column justify-content-between">
+              <small class="text-primary fw-bold mt-1 mb-2">Source: ${
+                item.source.name
+              }</small>
+                <h5 class="card-title mb-4">${item.title}</h5>
+
+                <a href=${
+                  item.url
+                } class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>`;
+        }
+        querySection.innerHTML = queryHome;
+      };
+      fetchNews("all", 1, topHeadlinesHome, topHeadlines);
+      fetchNews("weather", 1, weatherHome, weather);
+      fetchNews("sports", 1, sportsHome, sports);
+      fetchNews("entertainment", 1, entertainmentHome, entertainment);
+      fetchNews("economy", 1, economyHome, economy);
+    </script>
+  </body>
+</html>
